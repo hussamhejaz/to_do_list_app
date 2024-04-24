@@ -100,7 +100,7 @@ class TaskTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title:const Text('this is a tasks'),
+      title:const Text('this is a task'),
       trailing: Checkbox(value: false, onChanged:(bool? value){}),
     );
   }
